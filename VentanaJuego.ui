@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>821</width>
+    <height>536</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>VentanaJuego</string>
+  </property>
+  <widget class="QLabel" name="label_imgizq">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>sprites/logo.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_combo">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>40</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Combo: x0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_mayorcombo">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>60</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mayor combo: x0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_prog">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>40</y>
+     <width>60</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Progreso:</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progreso_prog">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>40</y>
+     <width>118</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+   <property name="textVisible">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progreso_apruebo">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>70</y>
+     <width>118</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+   <property name="textVisible">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_apruebo">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>60</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Aprobación:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_songs">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>20</y>
+     <width>60</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Canción:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="opcion_songs">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>10</y>
+     <width>104</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Cumbia 1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Cumbia 2</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_imgcenter">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>130</y>
+     <width>421</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>sprites/fondos/fondo.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_dif">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>50</y>
+     <width>60</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dificultad:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="opcion_dif">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>45</y>
+     <width>104</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Principiante</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Aficionado</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Maestro Cumbia</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="boton_pausar">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>20</y>
+     <width>113</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pausar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_salir">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>60</y>
+     <width>113</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_comenzar">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>80</y>
+     <width>131</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Comenzar ronda</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_tienda">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>150</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 30pt &quot;Arial Narrow&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Tienda</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_dinero">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>210</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 20pt &quot;Arial Narrow&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Dinero : $0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_valorpin">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>230</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 20pt &quot;Arial Narrow&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Valor pinguino: $0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fondo_arriba">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>801</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(154, 149, 202);
+border: 5px solid rgb(82, 82, 136);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fondo_der">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>125</y>
+     <width>181</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(154, 149, 202);
+border: 5px solid rgb(82, 82, 136);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fondo_izq">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>181</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(154, 149, 202);
+border: 5px solid rgb(82, 82, 136);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_dir">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>471</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>60</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(134, 133, 186)</string>
+   </property>
+   <property name="text">
+    <string>  A    W    S    D</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="zona_izq">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>430</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid black;
+background: rgb(0, 42, 200);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="zona_arriba">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>430</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid black;
+background: rgb(0, 42, 200);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="zona_abajo">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>430</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid black;
+background: rgb(0, 42, 200);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="zona_der">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>430</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid black;
+background: rgb(0, 42, 200);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>470</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>sprites/flechas/right_2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>fondo_izq</zorder>
+  <zorder>fondo_der</zorder>
+  <zorder>fondo_arriba</zorder>
+  <zorder>label_imgizq</zorder>
+  <zorder>label_combo</zorder>
+  <zorder>label_mayorcombo</zorder>
+  <zorder>label_prog</zorder>
+  <zorder>progreso_prog</zorder>
+  <zorder>progreso_apruebo</zorder>
+  <zorder>label_apruebo</zorder>
+  <zorder>label_songs</zorder>
+  <zorder>opcion_songs</zorder>
+  <zorder>label_imgcenter</zorder>
+  <zorder>label_dif</zorder>
+  <zorder>opcion_dif</zorder>
+  <zorder>boton_pausar</zorder>
+  <zorder>boton_salir</zorder>
+  <zorder>boton_comenzar</zorder>
+  <zorder>label_tienda</zorder>
+  <zorder>label_dinero</zorder>
+  <zorder>label_valorpin</zorder>
+  <zorder>zona_izq</zorder>
+  <zorder>zona_arriba</zorder>
+  <zorder>zona_abajo</zorder>
+  <zorder>zona_der</zorder>
+  <zorder>label</zorder>
+  <zorder>label_dir</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

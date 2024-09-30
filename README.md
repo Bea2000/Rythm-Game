@@ -1,6 +1,6 @@
 # Rythm Game
 
-**Rythm Game** is a rhythm game developed using Python and PyQt5. The game simulates a dance floor where your character can dance to the rhythm of the music. The goal is to impress the audience with your amazing dance moves and advance through as many levels as possible to become a great Cumbia Master!
+**Rythm Game** is a rhythm game developed using Python and PyQt5. The game simulates a dance floor where your character can dance to the rhythm of the music. The goal is to impress the audience with your amazing dance moves and advance through as many levels as possible to become a great Cumbia Master! This project was developed during the second semester of 2020 as part of my second-year Civil Engineering studies at Pontificia Universidad Católica de Chile.
 
 ![Rythm Game](image.png)
 
